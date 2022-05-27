@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	background-image: url('./landing-1.jpeg');
+	background-image: url('./landing.avif');
 	background-size: cover;
 	background-position: top center;
 }
