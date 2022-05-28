@@ -8,8 +8,6 @@ function App() {
   const url = "https://gmail.us8.list-manage.com/subscribe/post?u=ee4a764305f6e5b817a8b1f9a&amp;id=7024bf0e25";
   function handleSubmit(e) {
     e.preventDefault()
-    console.log('mix: ', mixpanel[0].properties)
-    console.log('mix: ', mixpanel[0].properties['$user_id'])
     console.log({email: email})
     mixpanel.track_forms('#revue-form', 'Newletter Signed up');
     mixpanel.alias(email)
